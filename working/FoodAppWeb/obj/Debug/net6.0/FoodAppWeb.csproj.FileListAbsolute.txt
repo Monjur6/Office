@@ -1,0 +1,202 @@
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\appsettings.Development.json
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\appsettings.json
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.exe
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.deps.json
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.runtimeconfig.json
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.dll
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.pdb
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.AssemblyReference.cache
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.AssemblyInfoInputs.cache
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.AssemblyInfo.cs
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.CoreCompileInputs.cache
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.MvcApplicationPartsAssemblyInfo.cs
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.FoodAppWeb.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.FoodAppWeb.props
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FoodAppWeb.props
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FoodAppWeb.props
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\staticwebassets.build.json
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\staticwebassets.development.json
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\scopedcss\bundle\FoodAppWeb.styles.css
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.CopyComplete
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.dll
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\refint\FoodAppWeb.dll
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.pdb
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.genruntimeconfig.cache
+D:\Office\ASP_REACT\FoodApp\FoodAppWeb\obj\Debug\net6.0\ref\FoodAppWeb.dll
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\appsettings.json
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\appsettings.Development.json
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.exe
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.deps.json
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.runtimeconfig.json
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.dll
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.pdb
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Office\ASP_REACT\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.AssemblyReference.cache
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.AssemblyInfoInputs.cache
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.AssemblyInfo.cs
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.CoreCompileInputs.cache
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.MvcApplicationPartsAssemblyInfo.cs
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.FoodAppWeb.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.FoodAppWeb.props
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FoodAppWeb.props
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FoodAppWeb.props
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\staticwebassets.build.json
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\staticwebassets.development.json
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\scopedcss\bundle\FoodAppWeb.styles.css
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.CopyComplete
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.dll
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\refint\FoodAppWeb.dll
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.pdb
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.genruntimeconfig.cache
+D:\Office\ASP_REACT\FoodAppWeb\obj\Debug\net6.0\ref\FoodAppWeb.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\appsettings.Development.json
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\appsettings.json
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.exe
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.deps.json
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.runtimeconfig.json
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.pdb
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.AssemblyReference.cache
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.AssemblyInfoInputs.cache
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.AssemblyInfo.cs
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.CoreCompileInputs.cache
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.MvcApplicationPartsAssemblyInfo.cs
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.FoodAppWeb.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.FoodAppWeb.props
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FoodAppWeb.props
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FoodAppWeb.props
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\staticwebassets.build.json
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\staticwebassets.development.json
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\scopedcss\bundle\FoodAppWeb.styles.css
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.CopyComplete
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.dll
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\refint\FoodAppWeb.dll
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.pdb
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.genruntimeconfig.cache
+D:\Office\New folder\FoodAppWeb\obj\Debug\net6.0\ref\FoodAppWeb.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Humanizer.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Office\New folder\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\appsettings.Development.json
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\appsettings.json
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.exe
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.deps.json
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.runtimeconfig.json
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\FoodAppWeb.pdb
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Humanizer.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Office\working\FoodAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.AssemblyReference.cache
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.AssemblyInfoInputs.cache
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.AssemblyInfo.cs
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.CoreCompileInputs.cache
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.MvcApplicationPartsAssemblyInfo.cs
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.FoodAppWeb.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.FoodAppWeb.props
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FoodAppWeb.props
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FoodAppWeb.props
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\staticwebassets.build.json
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\staticwebassets.development.json
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\scopedcss\bundle\FoodAppWeb.styles.css
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.csproj.CopyComplete
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.dll
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\refint\FoodAppWeb.dll
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.pdb
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\FoodAppWeb.genruntimeconfig.cache
+D:\Office\working\FoodAppWeb\obj\Debug\net6.0\ref\FoodAppWeb.dll

@@ -1,0 +1,38 @@
+.login-left-col{
+    background: #3D1E19;
+    color: white;
+    /* height: 500px; */
+    
+}
+.login-row{
+    height: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.login-info{
+    width: 240px;
+   height: 45px;
+   border-radius: 8px;
+}
+.login-with{
+    background-color: white;
+    border-color: rgb(169, 168, 168);
+   width: 240px;
+   height: 45px;
+   margin: 3px;
+   border-radius: 8px;
+}
+.sign-in-button{
+    background-color: #3D1E19;
+    color: white;
+    border-color: white ;
+    border-width: 1.5px;
+    font-size: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+.sign-in-button:hover{
+    background-color: white;
+    color: #3D1E19;
+    border-color: #3D1E19 ;
+}
