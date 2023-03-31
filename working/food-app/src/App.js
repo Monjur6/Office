@@ -1,9 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
+import './CSS/App.css';
 import Login from './Component/Login';
-import { urlWeather } from './endpoint';
-import axios from 'axios';
-import { useState, useEffect } from 'react';
 import Home from './Component/Home';
 
   function App() {

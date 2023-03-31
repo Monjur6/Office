@@ -1,68 +1,16 @@
-//using IdentityServer4.Models;
-//using IdentityServer4.Test;
-//using Microsoft.AspNetCore.Authentication.JwtBearer;
-//using Microsoft.IdentityModel.Tokens;
-//using IdentityServer4.Validation;
-//using Microsoft.Extensions.DependencyInjection;
-
 using FoodAppWeb.Context;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Collections.Generic;
+using System;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 var provider = builder.Services.BuildServiceProvider();
 var configuration = provider.GetRequiredService<IConfiguration>();
-// Add services to the container.
-
-
-//public void ConfigureServices(IServiceCollection services)
-//{
-//    // Add authentication
-//    services.AddAuthentication(options => {
-//        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-//        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-//    })
-//        .AddJwtBearer(options => {
-//            options.Authority = "https://localhost:5001";
-//            options.Audience = "your-scope";
-//            options.TokenValidationParameters = new TokenValidationParameters
-//            {
-//                ValidateIssuerSigningKey = true,
-//                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your-signing-key")),
-//                ValidateIssuer = false,
-//                ValidateAudience = false
-//            };
-//        });
-//    services.AddIdentityServer()
-//        .AddInMemoryClients(new[] {
-//            new Client
-//            {
-//                ClientId = "client-id",
-//                AllowedGrantTypes = GrantTypes.ClientCredentials,
-//                ClientSecrets = {
-//                    new Secret("client-secret".Sha256())
-//                },
-//                AllowedScopes = { "your-scope" }
-//            }
-//        })
-//        .AddInMemoryApiResources(new[] {
-//            new ApiResource("your-scope", "Your API Scope")
-//        })
-//        .AddTestUsers(new[] {
-//            new TestUser {
-//                SubjectId = "1",
-//                Username = "user",
-//                Password = "password"
-//            }
-//        })
-//        .AddDeveloperSigningCredential();
-//}
-
-
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
@@ -73,7 +21,9 @@ builder.Services.AddDbContext<ApplicationDBContext>(option =>option.UseSqlServer
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
+    // configure the OpenAPI/Swagger document generation
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "FoodApp", Version = "v1" });
+    // add a security definition for JWT bearer token
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "Jwt Authorization",
@@ -82,6 +32,7 @@ builder.Services.AddSwaggerGen(c =>
         Type = SecuritySchemeType.ApiKey,
         Scheme = "Bearer"
     });
+    // add a security requirement for the API operations to require JWT bearer token
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
 {
     {
@@ -98,6 +49,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 });
+// Configuring JWT token authentication
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
@@ -108,15 +60,17 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidateIssuerSigningKey = true,
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
         ValidAudience = builder.Configuration["Jwt:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:key"]))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:key"])) // Set the symmetric key used to sign the JWT token
     };
 });
+// Configuring CORS
 builder.Services.AddCors(Options =>
 {
+    // Get the frontend URL from the configuration 
     var frondendUrl = configuration.GetValue<string>("frontend_url");
     Options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins(frondendUrl).AllowAnyOrigin().AllowAnyHeader();
+        builder.WithOrigins(frondendUrl).AllowAnyOrigin().AllowAnyHeader(); // Set the allowed origin to the frontend URL
 
     });
 });

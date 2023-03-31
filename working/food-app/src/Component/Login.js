@@ -1,46 +1,46 @@
 import React, { useState } from 'react';
-import "./Login.css";
+import "../CSS/Login.css";
 import { FcGoogle } from "react-icons/fc";
-// import { GoogleLogin } from '@react-oauth/google';
-// import jwt_decode from "jwt-decode";
 import { useGoogleLogin } from '@react-oauth/google';
 import FacebookLogin from "react-facebook-login";
 import { useNavigate, Navigate } from 'react-router-dom';
-
 import axios from "axios"
-// import { toast } from "react-toastify";
-// import userEvent from '@testing-library/user-event';
 
   
 function Login() {
-
+    // Declare state variables for username, password, and token
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [token, setToken] = useState('');
+    // Get a reference to the navigate function from the react-router-dom library
     const navigate = useNavigate();
+    // Declare a function that logs in using an API
     const ProceedLoginusiingAPI=(e)=>{
       e.preventDefault();
-          
+      // Make a POST request to an API endpoint to log in    
       fetch('https://localhost:7296/api/Auth', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ Username: username, Password: password })
+        body: JSON.stringify({ username: username, password:password })
       })
-      .then(response => response.json())
-      .then(data => {
-        localStorage.setItem('token', data.token);
-        sessionStorage.setItem('token', data.token);
-        console.log('Local Storage token:', localStorage.getItem('token'));
-        console.log('Session Storage token:', sessionStorage.getItem('token'));
-        setToken(data.token);
+      .then((response) => {
+        return response.text(); // Convert response to plain text
+     })
+     .then((responseJson) => {
+      // Save the response token in local storage
+        localStorage.setItem('token', responseJson);
+        // Navigate to the home page after successful login
         navigate("/home");
-        return <Navigate to='/home' />;
-      })
+        
+     })
+      
       .catch(error => console.error(error));
     };
+    // Declare a function that logs in using Google OAuth
     const login = useGoogleLogin({
         onSuccess: async tokenResponse => {
             try{
+              // Make a GET request to the Google OAuth userinfo API to get user data
                     const data = await axios.get("https://www.googleapis.com/oauth2/v3/userinfo",{
                     headers:{"Authorization": `Bearer ${tokenResponse}`}
                 })
@@ -51,15 +51,18 @@ function Login() {
             }
         }
       });
+      // Declare a function that logs in using Facebook OAuth
       const responseFacebook = async (response) => {
         try {
           const {accessToken, username} = response;
+          // Make a GET request to the Facebook API to get user data
           const data = await axios.get(`https://graph.facebook.com/${username}?fields=id,name,email&access_token=${accessToken}`)
           console.log(data);
         } catch(err) {
           console.log(err);
         }
       }
+      // Render the login form and buttons
   return (
     <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
         <div className="container" style={{ maxWidth: "800px", height: "500px" }}>
@@ -84,7 +87,8 @@ function Login() {
                         <button className="btn btn-success font-weight-bold" style={{width:"240px", borderRadius:"8px"}} type="submit">Create Account</button>
                         </form>
                     <p style={{marginTop:"10px"}}>or</p>
-                    <button className="btn login-with d-flex align-items-center" onClick={login}>
+                    
+                    <button className="btn login-with d-flex align-items-center" onClick={login}> {/* This button component allows the user to login with their Google account. */}
                     <FcGoogle/>
                         <span className="mx-auto">Continue with Google</span>
                     </button>
@@ -93,17 +97,9 @@ function Login() {
                         <i class="fa-brands fa-facebook mr-2" style={{color:"#0E8DF1"}}/>
                         <span className="mx-auto">Continue with Facebook</span>
                     </button> */}
-                    {/* <GoogleLogin
-                        onSuccess={credentialResponse => {
-                            console.log(credentialResponse.credential);
-                            var decoded = jwt_decode(credentialResponse.credential);
-                            console.log(decoded);
-                        }}
-                        onError={() => {
-                            console.log('Login Failed');
-                        }}
-                    /> */} <FacebookLogin
-                      appId={process.env.REACT_APP_FACEBOOK_APP_ID}
+                    
+                     <FacebookLogin /* This button component allows the user to login with their Facebook account. */
+                      appId={process.env.REACT_APP_FACEBOOK_APP_ID} 
                       fields="name,email,picture"
                       callback={responseFacebook}
                       icon={<i className="fa-brands fa-facebook mr-2" style={{color:"#0E8DF1"}}/>}
