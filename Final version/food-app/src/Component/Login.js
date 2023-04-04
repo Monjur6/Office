@@ -23,7 +23,7 @@ function Login() {
 
     //   try {
     //     // Send a POST request to the server with the email and password data
-    //     const response = await fetch('/api/register', {
+    //     const response = await fetch('https://localhost:7209/api/Authenticate/register', {
     //       method: 'POST',
     //       headers: {
     //         'Content-Type': 'application/json'
