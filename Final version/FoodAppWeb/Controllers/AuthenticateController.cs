@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FoodApp.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -14,12 +15,12 @@ namespace WebApplication1.Controllers
     public class AuthenticateController : ControllerBase
     {
         // Dependencies injection through constructor
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
 
         public AuthenticateController(
-            UserManager<IdentityUser> userManager,
+            UserManager<ApplicationUser> userManager,
             RoleManager<IdentityRole> roleManager,
             IConfiguration configuration)
         {
@@ -86,11 +87,15 @@ namespace WebApplication1.Controllers
             model.SetDefaultUsername();
 
             // Create a new IdentityUser object and assign the user details
-            IdentityUser user = new()
+            ApplicationUser user = new()
             {
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.Username
+                UserName = model.Username,
+                firstName = model.firstName,
+                lastName = model.lastName,
+                dateOfBirth = (DateTime)model.DateOfBirth,
+                location = model.location
 
             };
 
@@ -116,11 +121,15 @@ namespace WebApplication1.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User already exists!" });
             
             // Create new IdentityUser object with user details
-            IdentityUser user = new()
+            ApplicationUser user = new()
             {
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.Username
+                UserName = model.Username,
+                firstName = model.firstName,
+                lastName = model.lastName,
+                dateOfBirth = (DateTime)model.DateOfBirth,
+                location = model.location
             };
             
             // Create new user with password using UserManager and check if successful

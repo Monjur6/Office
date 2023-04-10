@@ -4,7 +4,10 @@ namespace WebApplication1.Models
 {
     public class RegisterModel
     {
-        //[Required(ErrorMessage = "User Name is required")]
+        public string? firstName { get; set; }
+        public string? lastName { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+        public string? location { get; set; }
         public string? Username { get; set; }
 
         [EmailAddress]

@@ -8,6 +8,9 @@
     height: 500px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+.get_location{
+    margin: 0 !important;
+}
 .login-info{
     width: 240px;
    height: 45px;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Office\\New folder (2)\\FoodAppWeb\\FoodApp.csproj": {}
+    "D:\\Office\\Final version\\FoodAppWeb\\FoodApp.csproj": {}
   },
   "projects": {
-    "D:\\Office\\New folder (2)\\FoodAppWeb\\FoodApp.csproj": {
+    "D:\\Office\\Final version\\FoodAppWeb\\FoodApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Office\\New folder (2)\\FoodAppWeb\\FoodApp.csproj",
+        "projectUniqueName": "D:\\Office\\Final version\\FoodAppWeb\\FoodApp.csproj",
         "projectName": "FoodApp",
-        "projectPath": "D:\\Office\\New folder (2)\\FoodAppWeb\\FoodApp.csproj",
+        "projectPath": "D:\\Office\\Final version\\FoodAppWeb\\FoodApp.csproj",
         "packagesPath": "C:\\Users\\MONJUR\\.nuget\\packages\\",
-        "outputPath": "D:\\Office\\New folder (2)\\FoodAppWeb\\obj\\",
+        "outputPath": "D:\\Office\\Final version\\FoodAppWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MONJUR\\AppData\\Roaming\\NuGet\\NuGet.Config",

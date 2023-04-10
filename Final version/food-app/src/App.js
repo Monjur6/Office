@@ -3,6 +3,7 @@ import './CSS/App.css';
 import Login from './Component/Login';
 import Home from './Component/Home';
 import  Map from './Component/Map';
+import Register from './Component/Register';
   function App() {
  
   return (
@@ -11,7 +12,8 @@ import  Map from './Component/Map';
       <Routes>
         <Route path='/' element={<Login/>}/>
         <Route path='home' element={<Home/>}/>
-        <Route path='Map' element={<Map/>}/>
+        <Route path='map' element={<Map/>}/>
+        <Route path='register' element={<Register/>}/>
       </Routes>
       </BrowserRouter>
     </div>
